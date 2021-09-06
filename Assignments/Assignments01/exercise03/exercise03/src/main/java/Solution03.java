@@ -14,6 +14,7 @@ public class Solution03 {
         System.out.println("Who said it? ");
         String whosaid = input.nextLine();  // Reads user input
 
+        //  Scanner closer
         input.close();
 
         System.out.println(whosaid + " says, \"" + yourquote + ".\"");  // Print line with inputs
